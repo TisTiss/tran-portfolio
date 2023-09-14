@@ -12,6 +12,11 @@
     right: 45px;
     bottom: 45px;
     z-index: 99;
+    background-color: #FEE140;
+    background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);    
+    border-color: #D9AFD9;
+    border-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
 }
 
 .my-6 {
@@ -106,7 +111,7 @@
 /*** Header ***/
 #home {
     margin-bottom: 6rem;
-    background: url(../img/bg-header.png) left top no-repeat;
+    background: url(../img/planet-530-530.png) left top no-repeat;
 }
 
 .typed-cursor {
@@ -471,7 +476,9 @@
 
 /* ========== test services ======== */
 .collapsible {
-    background-color: #b3a3de;
+    background-color: #FBDA61;
+    background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+
     color: #fff;
     cursor: pointer;
     padding: 18px;
@@ -484,12 +491,10 @@
     margin-top: 1rem;
   }
   
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .actives, .collapsible:hover {
     background-color: #ccc;
   }
   
-  /* Style the collapsible content. Note: hidden by default */
   .content {
     padding: 0 18px;
     display: none;
@@ -505,11 +510,6 @@
     overflow: hidden;
     transition: max-height 0.2s ease-out;
   }
-
-
-
-
-
 
 
 /* video */
@@ -786,7 +786,26 @@ p {
     margin-left:3em;
 }
 
-
+/* ======== img solo ========= */
+.img-solo {
+    border-radius: 20px;
+    max-width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* background: white; */
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    color: white;
+    box-shadow: 20px 20px rgba(245, 225, 111, 0.979);
+    transition: all .4s ease;
+}
+.img-solo:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(204, 100, 100, 0.884);
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
+/* ======== img solo END ========= */
 
 
 
