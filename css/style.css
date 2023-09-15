@@ -475,21 +475,28 @@
 
 /* ========== test services ======== */
 .collapsible {
-    background-color: #FBDA61;
-    background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
-
+    background-image: linear-gradient( 135deg, #FFAA85 10%, #B3315F 100%);
+    /* background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%); */
     color: #fff;
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    border: none;
     text-align: center;
     outline: none;
     font-size: 15px;
     border-radius: 10px;
     margin-top: 1rem;
+    /* text-transform: uppercase; */
+    /* padding: 10px 20px; */   
+    border: 3px solid #FAFAFA;
+    box-shadow: 5px 5px #030000;
   }
   
+  .collapsible:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+  }
+
   .actives, .collapsible:hover {
     background-color: #ccc;
   }
@@ -846,4 +853,17 @@ p {
     color: black;
     text-decoration: none;
     cursor: pointer;
+  }
+
+
+  /* ============= footer ============ */
+  .footer {
+    /* background-color: #000000 !important; */
+    background: url(../img/universe-background-footer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* transition: transform 300ms cubic-bezier(0,0,0.3,1), -webkit-transform 300ms cubic-bezier(0,0,0.3,1); */
+    /* will-change: transform; */
+    /* animation: bounce 3s ease-in-out infinite; */
   }
