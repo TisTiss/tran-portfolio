@@ -444,7 +444,7 @@
 .box {
     border: 3px #333;
     /* width: 300px; */
-    max-height: 900px;
+    max-height: 1500px;
     margin: 0 auto;
     overflow: auto;
     overscroll-behavior: auto;
